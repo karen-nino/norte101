@@ -253,7 +253,7 @@ hr.more_margin {
 
 /* General links color */
 a {
-  color: #978667;
+  color: #d8b96b;
   text-decoration: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -270,7 +270,7 @@ a:hover, a:focus {
 
 .title small {
   text-transform: uppercase;
-  color: #978667;
+  color: #d8b96b;
   letter-spacing: 3px;
   font-weight: 600;
   display: block;
@@ -405,6 +405,20 @@ a.btn_1.outline.white,
 }
 a.btn_1.outline:hover,
 .btn_1.outline:hover {
+  background-color: #4b514d;
+  border: 2px solid transparent;
+  color: #fff;
+}
+
+a.btn_1.outline2,
+.btn_1.outline2 {
+  background-color: #d8b96b;
+  border: 2px solid #d8b96b;
+  color: #fff;
+}
+
+a.btn_1.outline2:hover,
+.btn_1.outline2:hover {
   background-color: #4b514d;
   border: 2px solid transparent;
   color: #fff;
@@ -1628,13 +1642,13 @@ a.box_cat_rooms:hover .background-image {
 }
 .box_item_info small {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: 2px;
   display: block;
   margin-bottom: 0;
   font-size: 14px;
   font-size: 0.875rem;
-  color: #978667;
+  color: #d8b96b;
 }
 .box_item_info h2 {
   font-size: 30px;
