@@ -957,6 +957,15 @@ img.jarallax-img.kenburns-2 {
   font-size: 0.8125rem;
 }
 
+.heading-one {
+  color: #2C3651f;
+  text-align: center;
+  padding: 25px 0;
+  background-color: #1f2127;
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+
 .social ul {
   display: block;
   list-style: none;
