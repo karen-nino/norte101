@@ -848,6 +848,13 @@ img.jarallax-img.kenburns {
   /* or: backwards, both, none */
 }
 
+.comLi {
+  box-shadow: 0px 0px 1px 0px;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
 @keyframes kenburns {
   0% {
     transform: scale3d(1.4, 1.4, 1.4) translate3d(-5%, -2%, 0px);
@@ -2422,5 +2429,8 @@ textarea.form-control {
   
   iframe{
       width: 100%;   
+  }
+  .comUl{
+    padding-left: 0px
   }
 }
