@@ -653,7 +653,7 @@ header.fixed_header.sticky .hamburger__inner::after {
   font-size: 18px;
   font-size: 1.125rem;
   font-weight: 600;
-  color: #978667;
+  color: #d8b96b;
 }
 .phone_element a span em {
   color: #333;
@@ -669,7 +669,7 @@ header.fixed_header.sticky .hamburger__inner::after {
   margin-right: 15px;
   font-size: 30px;
   font-size: 1.875rem;
-  color: #978667;
+  color: #d8b96b;
 }
 .phone_element.no_borders {
   padding-top: 5px;
@@ -2411,5 +2411,16 @@ textarea.form-control {
 @media (max-width: 767px) {
   .add_top_90 {
     padding-top: 60px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .parallax_wrapper {
+      padding-left: 0px !important;
+  }
+  
+  iframe{
+      width: 100%;   
   }
 }
