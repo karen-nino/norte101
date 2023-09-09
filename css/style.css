@@ -535,7 +535,7 @@ header.fixed_header.sticky nav ul li a.btn_1 {
 header.fixed_header.sticky .hamburger__inner,
 header.fixed_header.sticky .hamburger__inner::before,
 header.fixed_header.sticky .hamburger__inner::after {
-  background-color: #333;
+  background-color: #fff;
 }
 
 .infoR{
