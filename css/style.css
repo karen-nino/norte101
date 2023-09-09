@@ -84,14 +84,14 @@ Author URI: http://themeforest.net/user/Ansonika/
   overflow: hidden;
 }
 #preloader.loaded {
-  -webkit-animation: background 0.65s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  -moz-animation: background 0.65s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  -o-animation: background 0.65s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  animation: background 0.65s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  -webkit-transition-delay: 1s;
-  -moz-transition-delay: 1s;
-  -o-transition-delay: 1s;
-  transition-delay: 1s;
+  -webkit-animation: background 0.10s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86) !important;
+  -moz-animation: background 0.10s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86) !important;
+  -o-animation: background 0.10s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86) !important;
+  animation: background 0.10s normal forwards cubic-bezier(0.785, 0.135, 0.15, 0.86) !important;
+  -webkit-transition-delay: 05s !important;
+  -moz-transition-delay: 05s !important;
+  -o-transition-delay: 05s !important; 
+  transition-delay: 05s !important;
 }
 
 [data-loader="circle-side"] {
